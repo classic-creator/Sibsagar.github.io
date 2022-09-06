@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nave {
+
+    /* background-image: url(img/matt-ragland-02z1I7gv4ao-unsplash.jpg); */
+    background: rgba(26, 8, 8, 0.863);
+    position: FIXED;
+    z-index: 100;
+    width: 100%;
+    BORDER-BOTTOM: 1PX SOLID #a77777;
+    top: 0%;
+
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 20% 70% 20%;
+}
+
+.img {
+    background: url(IMG/IMG-LOGO.png);
+    background-size: cover;
+    /* border: 2px solid black; */
+    width: 180px;
+    height: 64px;
+    margin-left: 27px;
+
+
+}
+
+.middle {
+    background: transparent;
+    margin: 5px;
+    padding: 10px;
+}
+
+.navigation ul {
+    text-align: center;
+    display: inline-flex;
+    list-style: none;
+}
+
+.middle ul li {
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.middle ul li a {
+    color: rgb(226, 215, 215);
+    text-decoration: none;
+
+
+}
+
+.middle ul li:hover {
+    background-color: rgb(36, 175, 152);
+    color: white;
+
+}
+
+.subchild1 {
+    display: none;
+}
+
+.middle ul li:hover .subchild1 {
+    display: block;
+    position: absolute;
+    background: transparent;
+
+
+}
+
+.middle ul li:hover .subchild1 ul {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.middle ul li:hover .subchild1 ul {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+}
+
+
+.right {
+    display: inline-flex;
+    background: transparent;
+    color: rgb(44, 87, 173);
+    margin: 14px;
+    padding: 10px;
+    position: absolute;
+    left: 1000px;
+    width: 100%;
+
+}
+
+.right input {
+    color: white;
+    border-radius: 10px;
+    margin: -10px 14px;
+    background: transparent;
+    width: 233px;
+    height: 40px;
+}
+
+.right i {
+    color: rgb(233, 227, 227);
+
+}
+
+.cover {
+    /* background-color: aqua; */
+    /* width: 200%; */
+    height: 640px;
+    /* width: 100px; */
+    /* left: 10%; */
+    /* position: absolute; */
+    /* border: 2px solid black; */
+    background-image: url(img/main.jpg);
+    background-size:100% 96%;
+    background-repeat: no-repeat;
+}
+.cover_img{
+    position: absolute;
+    margin-top: 200px;
+    /* object-fit: cover; */
+ left: 60%;
+  
+}
+
+
+.middle1 {
+    /* border: 2px solid black; */
+
+    /* top: 14%;
+    left: 57%; */
+    width: 550px;
+    height: 120px;
+
+}
+
+.middle1 h1 {
+    text-align: center;
+    color: rgb(251, 249, 252);
+}
+
+.buttons-cover {
+    margin: 27px 22px;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+
+}
+
+.btn-cover {
+    /* background: transparent;
+    color: aliceblue; */
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 151px;
+    height: 44px;
+    margin: -9px 7px;
+    border: none;
+}
+
+.btn-cover:hover {
+    background-color: black;
+    color: white;
+
+}
+
+
+
+.about{
+    height: 430px;
+    /* border: 2px solid black; */
+    border-bottom: 1px dotted black;
+    width: 90%;
+    left: 5%;
+    position: relative;
+    border-radius: 6px;
+    
+}
+.about_head{
+   
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+.text_about{
+    border-radius: 6px;
+    background: #d6c5c5;
+}
+.about h1{
+   
+    /* border-bottom: 1px solid black; */
+    text-align: center;
+    padding: 30px;
+    
+}
+.about p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+  
+    
+}
+.course_main {
+    margin-top: 80px;
+}
+
+
+.course {
+    /* border: 2PX SOLID black; */
+
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* gap: 10px; */
+    grid-auto-rows: 310px;
+
+    height: 1000px;
+}
+
+
+.course_main h1 {
+
+padding: 30px;
+    text-align: center;
+}
+
+
+.course_main p {
+    text-align: center;
+
+
+}
+.course_head {
+    /* background: rgb(199, 185, 159); */
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+
+.course_head p {
+    border-bottom: 1px solid black;
+
+}
+
+.course_box {
+    /* border: 2px solid brown; */
+    display: flex;
+    /* position: absolute; */
+    margin: 25px 22px;
+    background: rgb(186, 197, 185);
+    border-bottom: 2PX SOLID rgb(49, 88, 49);
+    border-radius: 9PX;
+  
+}
+
+.course_box:hover {
+    cursor: pointer;
+    background: #a77777;
+}
+
+.course img {
+
+    width: 310px;
+    height: 245px;
+    border-radius: 20px;
+    margin: 7px;
+    /* border: 1px solid black; */
+    /* display: block; */
+}
+
+.box-text {
+    /* margin-top: 50px; */
+    text-align: center;
+}
+.box-text h2{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.box-text p{
+    text-align: left;
+}
+
+.address_box {
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    /* position: sticky; */
+    width: 100%;
+    height: 400px;
+    /* position: absolute; */
+    /* clear: both; */
+}
+
+.add_HEAD {
+    /* border: 2PX SOLID rgb(0, 255, 13); */
+    /* margin-top: 80PX; */
+    /* text-align: center; */
+    background: rgb(199, 185, 159);
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.add_HEAD h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.box_address1 {
+    /* border: 2px solid black; */
+    /* display: flex; */
+    position: absolute;
+    /* position: relative; */
+    left: 10%;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.box_address1 h1 {
+    padding: 13px;
+}
+
+.box_address2 {
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 2%;
+}
+
+.box_address2 button {
+    margin-top: 37px;
+    /* border: 1px solid black; */
+}
+
+.address_data {
+    color: rgb(17, 18, 19);
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    margin: 7PX 3PX;
+    FONT-SIZE: 18PX;
+    height: 39PX;
+    border-radius: 10PX;
+}
+
+
+.box_aboutus:hover {
+    background: #d6c5c5;
+}
+
+.box_aboutus h1 {
+    text-align: center;
+    padding-top: 27px;
+}
+
+.aboutus_head {
+    /* margin-top: 80PX; */
+    /* text-align: center; */
+    background: rgb(199, 185, 159);
+    border-bottom: 1px solid black;
+    height: 100px;
+
+}
+
+.aboutus_text {
+    /* text-align: left ; */
+    font-size: 25px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.photo_main {
+  
+    height: 400px;
+
+}
+
+.photo_head {
+    width: 40%;
+    left: 30%;
+    position: relative;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.photo_head h1 {
+    text-align: center;
+    border-bottom: 1PX solid black;
+}
+
+.facilites {
+    /* border: 2px solid black; */
+    background: #a77777;
+}
+
+.pic_box img {
+    width: 250px;
+    height: 200px;
+}
+
+.pic_box h3 {
+    text-align: center;
+}
+
+.photo_boxs div {
+    display: inline-block;
+    /* flex-direction: row; */
+    margin: 5px 40px;
+
+}
+
+.photo_boxs {
+    overflow-x: scroll;
+    display: flex;
+
+}
+
+footer {
+    border-top: 1PX SOLID black;
+}
